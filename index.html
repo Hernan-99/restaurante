@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
+    <title>Landig Page</title>
+    <script
+      src="https://kit.fontawesome.com/1cfac9386a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="contenedor">
+        <div class="row">
+          <div class="logo">
+            <a href="#inicio"><img src="img/logo.png" alt="Logo" /></a>
+          </div>
+          <button type="button" class="btn nav-toggler" id="btn">
+            <div></div>
+          </button>
+          <nav class="nav" id="nav">
+            <ul>
+              <li class="nav-item"><a href="#inicio">inicio</a></li>
+              <li class="nav-item">
+                <a href="#quienesSomos">quienes somos</a>
+              </li>
+              <li class="nav-item"><a href="#contactanos">contactanos</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section class="home-section" id="inicio">
+      <div class="home-bg"></div>
+      <div class="contenedor">
+        <div class="row min-vh-100">
+          <div class="home-text">
+            <h1>Nombre</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+              eveniet pariatur optio, magni dolorem perferendis consequatur eos
+              quo dolor quaerat?
+            </p>
+            <a href="#menu" class="btns">Ver menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section sec-padding" id="quienesSomos">
+      <div class="contenedor">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-title="quienes">somos</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="about-text">
+            <h3>Bienvenido</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis iusto porro aliquid distinctio quaerat, ratione totam
+              libero veritatis. Porro, culpa!Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Perspiciatis iusto porro aliquid
+              distinctio quaerat, ratione totam libero veritatis. Porro, culpa!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis iusto porro aliquid distinctio quaerat, ratione totam
+              libero veritatis. Porro, culpa!Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Perspiciatis iusto porro aliquid
+              distinctio quaerat, ratione totam libero veritatis. Porro, culpa!
+            </p>
+            <a href="#menu" type="button" class="btns">Ver menu</a>
+          </div>
+          <div class="about-img">
+            <div class="img-box">
+              <h3>gracias por visitarnos</h3>
+              <img src="img/descripcion.jpg" alt="imagen de descripcion" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section sec-padding" id="menu">
+      <div class="contenedor">
+        <div class="row">
+          <div class="section-title">
+            <h2 data-title="nuestros">menus</h2>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="menu-tabs" id="menuTabs">
+            <button
+              type="button"
+              class="menu-tab-item active"
+              data-target="#almuerzo"
+            >
+              almuerzo
+            </button>
+            <button type="button" class="menu-tab-item" data-target="#cena">
+              cena
+            </button>
+            <button type="button" class="menu-tab-item" data-target="#bebidas">
+              bebidas
+            </button>
+            <button type="button" class="menu-tab-item" data-target="#postres">
+              postres
+            </button>
+          </div>
+        </div>
+        <!-------------------------------------- ALMUERZOS--------------------------------------- -->
+        <div class="row menu-tab-content active" id="almuerzo">
+          <div class="menu-item">
+            <div class="menu-item-title">
+              <img src="img/menuimg/1.jpg" alt="almuerzo1" />
+              <h3>almuerzo</h3>
+            </div>
+            <div class="menu-item-price">$100.00</div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-title">
+              <img src="img/menuimg/2.jpg" alt="almuerzo2" />
+              <h3>almuerzo</h3>
+            </div>
+            <div class="menu-item-price">$200.00</div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-title">
+              <img src="img/menuimg/3.jpg" alt="almuerzo3" />
+              <h3>almuerzo</h3>
+            </div>
+            <div class="menu-item-price">$50.00</div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-title">
+              <img src="img/menuimg/4.jpg" alt="almuerzo4" />
+              <h3>almuerzo</h3>
+            </div>
+            <div class="menu-item-price">$900.00</div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-title">
+              <img src="img/menuimg/5.jpg" alt="almuerzo5" />
+              <h3>almuerzo</h3>
+            </div>
+            <div class="menu-item-price">$90.00</div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-title">
+              <img src="img/menuimg/6.jpg" alt="almuerzo6" />
+              <h3>almuerzo</h3>
+            </div>
+            <div class="menu-item-price">$20.00</div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-title">
+              <img src="img/menuimg/7.jpg" alt="almuerzo7" />
+              <h3>almuerzo</h3>
+            </div>
+            <div class="menu-item-price">$50.00</div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-title">
+              <img src="img/menuimg/8.jpg" alt="almuerzo8" />
+              <h3>almuerzo</h3>
+            </div>
+            <div class="menu-item-price">$40.00</div>
+          </div>
+        </div>
+
+        <!--------------------------------------CENAS--------------------------------------- -->
+
+        <div class="row menu-tab-content" id="cena">
+          <div class="menu-item">
+            <div class="menu-item-title">
+              <img src="img/menuimg/1.jpg" alt="cena1" />
+              <h3>cena</h3>
+            </div>
+            <div class="menu-item-price">$300.00</div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-title">
+              <img src="img/menuimg/2.jpg" alt="cena2" />
+              <h3>cena</h3>
+            </div>
+            <div class="menu-item-price">$100.00</div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-title">
+              <img src="img/menuimg/3.jpg" alt="cena3" />
+              <h3>cena</h3>
+            </div>
+            <div class="menu-item-price">$80.00</div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-title">
+              <img src="img/menuimg/4.jpg" alt="cena4" />
+              <h3>cena</h3>
+            </div>
+            <div class="menu-item-price">$40.00</div>
+          </div>
+        </div>
+
+        <!--------------------------------------BEBIDAS--------------------------------------- -->
+        <div class="row menu-tab-content" id="bebidas">
+          <div class="menu-item">
+            <div class="menu-item-title">
+              <img src="img/menuimg/1.jpg" alt="bebida1" />
+              <h3>bebida</h3>
+            </div>
+            <div class="menu-item-price">$30.00</div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-title">
+              <img src="img/menuimg/2.jpg" alt="bebida2" />
+              <h3>bebida</h3>
+            </div>
+            <div class="menu-item-price">$45.00</div>
+          </div>
+        </div>
+
+        <!--------------------------------------POSTRES--------------------------------------- -->
+        <div class="row menu-tab-content" id="postres">
+          <div class="menu-item">
+            <div class="menu-item-title">
+              <img src="img/menuimg/1.jpg" alt="postre1" />
+              <h3>postre</h3>
+            </div>
+            <div class="menu-item-price">$100.00</div>
+          </div>
+
+          <div class="menu-item">
+            <div class="menu-item-title">
+              <img src="img/menuimg/2.jpg" alt="postre2" />
+              <h3>postre</h3>
+            </div>
+            <div class="menu-item-price">$200.00</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contactanos">
+      <div class="contenedor">
+        <div class="row">
+          <div class="footer-item">
+            <h3>direccion</h3>
+            <p>
+              Calle 123, <br />
+              CABA
+            </p>
+          </div>
+          <div class="footer-item">
+            <h3>Horarios</h3>
+            <p>
+              De Lunes a Sabados <br />
+              9:00am - 22:00pm
+            </p>
+          </div>
+          <div class="footer-item">
+            <h3>Contacto</h3>
+            <p>
+              Tel: 4444-4444 <br />
+              Cel: 11 2233-4455
+            </p>
+          </div>
+          <div class="footer-item">
+            <h3>Nuestras Redes</h3>
+            <div class="social">
+              <a href="https://www.instagram.com/" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.facebook.com/" target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="https://twitter.com/" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
